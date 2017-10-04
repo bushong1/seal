@@ -1,4 +1,4 @@
-development-team:
+sbagov-developers:
   members:
   - bushong1
   - zander312
@@ -9,13 +9,54 @@ development-team:
   - brooksa321
   channel:
     "#the-dojo"
-  quotes:
-  - I'm pretty sure there's a lot more to life than being really, really, ridiculously good looking. And I plan on finding out what that is.
-  - Where shall we go for lunch?
-  - Where's the data?
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
   - sba-gov-wakazashi
   - sba-gov-chef
   - sba-gov-test
+hubzone:
+  members:
+  - solipet
+  - tbolt
+  - patkelsh
+  - xcelldf
+  - leeplace
+  - jondandois
+  channel:
+    "#sba-hubzone"
+  include_repos:
+  - hubzone-data-etl
+  - hubzone-testing
+  - hubzone-webmap
+  - hubzone-api
+  - hubzone-report
+  - hubzone-geoserver-config
+  - shared-services-prototype
+  - notification-api
+  - message-api
+
+hubzone-devops:
+  members:
+  - bushong1
+  - solipet
+  channel:
+    "#sba-hubzone-devops"
+  include_repos:
+  - infrastructure
+  - devops
+  - cookbook-hzetl
+  - cookbook-geoserver
+  - cookbook-geoapi
+  - cookbook-hzmap
+  - cookbook-shared-activity
+  - cookbook-shared-common
+  - cookbook-hubzone-common
+  - cookbook-hubzone-deploy
+  - cookbook-hubzone-nginx
+  - cookbook-shared-messaging
+  - cookbook-shared-notification
+  - cookbook-shared-deploy
+  - cookbook-hubzone-report
+  - hubzone-deploy
+  - hubzone-packer
