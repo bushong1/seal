@@ -40,6 +40,7 @@ hubzone-devops:
   members:
   - bushong1
   - solipet
+  - jgsmith-usds
   channel:
     "#sba-hubzone-devops"
   include_repos:
@@ -60,3 +61,4 @@ hubzone-devops:
   - cookbook-hubzone-report
   - hubzone-deploy
   - hubzone-packer
+  - proofs-of-concept
