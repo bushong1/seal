@@ -26,6 +26,7 @@ hubzone:
   - xcelldf
   - leeplace
   - jondandois
+  - bushong1
   channel:
     "#sba-hubzone"
   include_repos:
