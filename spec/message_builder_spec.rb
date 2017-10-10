@@ -82,7 +82,7 @@ describe MessageBuilder do
     let(:pull_requests) { recent_pull_requests }
 
     it 'builds informative message' do
-      expect(message_builder.build).to eq("Hello team! \n\n Here are the pull requests that need to be reviewed today:\n\n1) *whitehall* | tekin | updated yesterday | :white_check_mark: \n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n\nMerry reviewing!")
+      expect(message_builder.build).to eq("Hello team! \n\n Here are the pull requests that need to be reviewed and merged today:\n\n1) *whitehall* | tekin | updated yesterday | :white_check_mark: \n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n\nMerry reviewing!")
     end
 
     it 'has an informative poster mood' do
@@ -112,14 +112,14 @@ describe MessageBuilder do
       context "and some recent ones" do
         before { Timecop.freeze(Time.local(2015, 07, 18)) }
         it 'builds message' do
-          expect(message_builder.build).to eq("AAAAAAARGH! This pull request has not been updated in over 2 days.\n\n1) *whitehall* | mattbostock | updated 5 days ago | 1 :+1:\n<https://github.com/alphagov/whitehall/pull/2266|[FOR DISCUSSION ONLY] Remove Whitehall.case_study_preview_host> - 1 comment\n\nRemember each time you forget to review your pull requests, a baby seal dies.\n    \n\nThere are also these pull requests that need to be reviewed today:\n\n1) *whitehall* | tekin | updated yesterday\n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n ")
+          expect(message_builder.build).to eq("AAAAAAARGH! This pull request has not been updated in over 2 days.\n\n1) *whitehall* | mattbostock | updated 5 days ago | 1 :+1:\n<https://github.com/alphagov/whitehall/pull/2266|[FOR DISCUSSION ONLY] Remove Whitehall.case_study_preview_host> - 1 comment\n\nRemember each time you forget to review your pull requests, a baby seal dies.\n    \n\nThere are also these pull requests that need to be reviewed and merged today:\n\n1) *whitehall* | tekin | updated yesterday\n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n ")
         end
       end
 
       context "but no recent ones" do
         before { Timecop.freeze(Time.local(2015, 07, 16)) }
         it 'builds message' do
-          expect(message_builder.build).to eq("AAAAAAARGH! This pull request has not been updated in over 2 days.\n\n1) *whitehall* | mattbostock | updated 3 days ago | 1 :+1:\n<https://github.com/alphagov/whitehall/pull/2266|[FOR DISCUSSION ONLY] Remove Whitehall.case_study_preview_host> - 1 comment\n\nRemember each time you forget to review your pull requests, a baby seal dies.\n    \n\nThere are also these pull requests that need to be reviewed today:\n\n1) *whitehall* | tekin | updated -1 days ago\n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n ")
+          expect(message_builder.build).to eq("AAAAAAARGH! This pull request has not been updated in over 2 days.\n\n1) *whitehall* | mattbostock | updated 3 days ago | 1 :+1:\n<https://github.com/alphagov/whitehall/pull/2266|[FOR DISCUSSION ONLY] Remove Whitehall.case_study_preview_host> - 1 comment\n\nRemember each time you forget to review your pull requests, a baby seal dies.\n    \n\nThere are also these pull requests that need to be reviewed and merged today:\n\n1) *whitehall* | tekin | updated -1 days ago\n<https://github.com/alphagov/whitehall/pull/2248|Remove all Import-related code> - 5 comments\n ")
         end
       end
     it 'has an angry poster mood' do
