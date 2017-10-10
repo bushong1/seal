@@ -15,6 +15,9 @@ sbagov-developers:
   - sba-gov-wakazashi
   - sba-gov-chef
   - sba-gov-test
+  use_labels: true
+  exclude_labels:
+  - WIP
 hubzone:
   members:
   - solipet
@@ -35,6 +38,9 @@ hubzone:
   - shared-services-prototype
   - notification-api
   - message-api
+  use_labels: true
+  exclude_labels:
+  - WIP
 
 hubzone-devops:
   members:
@@ -62,3 +68,6 @@ hubzone-devops:
   - hubzone-deploy
   - hubzone-packer
   - proofs-of-concept
+  use_labels: true
+  exclude_labels:
+  - WIP
