@@ -27,6 +27,7 @@ hubzone:
   - leeplace
   - jondandois
   - bushong1
+  - jgsmith-usds
   channel:
     "#sba-hubzone"
   include_repos:
