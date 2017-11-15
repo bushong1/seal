@@ -49,7 +49,7 @@ class GithubFetcher
   # https://developer.github.com/v3/search/#search-issues
   # returns up to 100 results per page.
   def pull_requests_from_github
-    @github.search_issues("is:pr state:open user:#{ORGANISATION}").items
+    @github.search_issues("is:pr is:open user:#{ORGANISATION}").items
   end
 
   def person_subscribed?(pull_request)
