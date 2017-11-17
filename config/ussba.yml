@@ -8,7 +8,7 @@ sbagov-developers:
   - cyber-decker
   - brooksa321
   channel:
-    "#the-dojo"
+    "#sba-gov-pull-requests"
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
