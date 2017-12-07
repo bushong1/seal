@@ -18,6 +18,20 @@ sbagov-developers:
   use_labels: true
   exclude_labels:
   - WIP
+sbagov-devops:
+  members:
+  - bushong1
+  - sigfriedjk
+  - brooksa321
+  - jsmigovsky
+  channel:
+    "#sba-gov-devops"
+  include_repos:
+  - sba-gov-infrastructure
+  - sba-gov-containers
+  use_labels: true
+  exclude_labels:
+  - WIP
 hubzone:
   members:
   - solipet
