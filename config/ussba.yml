@@ -84,6 +84,7 @@ hubzone-devops:
   - hubzone-deploy
   - hubzone-packer
   - proofs-of-concept
+  - aws-cft-tools
   use_labels: true
   exclude_labels:
   - WIP
