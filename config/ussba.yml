@@ -1,20 +1,32 @@
 sbagov-developers:
   members:
-  - bushong1
-  - zander312
   - sigfriedjk
   - unblevable
   - averysmithproductions
   - cyber-decker
   - brooksa321
-  channel:
-    "#the-dojo"
+  channel: "#sba-gov-pull-requests"
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
   - sba-gov-wakazashi
-  - sba-gov-chef
   - sba-gov-test
+  use_labels: true
+  exclude_labels:
+  - WIP
+sbagov-devops:
+  members:
+  - bushong1
+  - sigfriedjk
+  - brooksa321
+  - jsmigovsky
+  channel:
+    "#team-hyan_rillards"
+  include_repos:
+  - sba-gov-infrastructure
+  - sba-gov-containers
+  - sba-gov-chef
+  - sba-gov-wordpress
   use_labels: true
   exclude_labels:
   - WIP
@@ -28,8 +40,7 @@ hubzone:
   - jondandois
   - bushong1
   - jgsmith-usds
-  channel:
-    "#sba-hubzone"
+  channel: "#sba-hubzone"
   include_repos:
   - hubzone-data-etl
   - hubzone-testing
@@ -49,8 +60,7 @@ hubzone-devops:
   - bushong1
   - solipet
   - jgsmith-usds
-  channel:
-    "#sba-hubzone-devops"
+  channel: "#sba-hubzone-devops"
   include_repos:
   - infrastructure
   - devops
@@ -70,6 +80,7 @@ hubzone-devops:
   - hubzone-deploy
   - hubzone-packer
   - proofs-of-concept
+  - aws-cft-tools
   use_labels: true
   exclude_labels:
   - WIP
