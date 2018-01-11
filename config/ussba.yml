@@ -8,7 +8,7 @@ sbagov-developers:
   - cyber-decker
   - brooksa321
   channel:
-    "#sba-gov-pull-requests"
+    "#sba-gov-pr-plus"
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
@@ -25,7 +25,7 @@ sbagov-devops:
   - brooksa321
   - jsmigovsky
   channel:
-    "#sba-gov-devops"
+    "#team-hyan_rillards"
   include_repos:
   - sba-gov-infrastructure
   - sba-gov-containers
