@@ -27,6 +27,9 @@ sbagov-devops:
   - sba-gov-containers
   - sba-gov-chef
   - sba-gov-wordpress
+  - sba-gov-nginx-proxy
+  - sba-gov-efscopy
+  - sba-gov-scripts
   use_labels: true
   exclude_labels:
   - WIP
