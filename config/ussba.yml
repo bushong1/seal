@@ -30,6 +30,7 @@ sbagov-devops:
   - sba-gov-nginx-proxy
   - sba-gov-efscopy
   - sba-gov-scripts
+  - sba-gov-tanto
   use_labels: true
   exclude_labels:
   - WIP
