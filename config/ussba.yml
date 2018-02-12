@@ -55,6 +55,7 @@ hubzone:
   - shared-services-prototype
   - notification-api
   - message-api
+  - omniauth-sba-idp
   use_labels: true
   exclude_labels:
   - WIP
