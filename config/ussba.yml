@@ -5,11 +5,13 @@ sbagov-developers:
   - averysmithproductions
   - cyber-decker
   - brooksa321
+  - lsemesky
   channel: "#sba-gov-pull-requests"
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
-  - sba-gov-wakazashi
+  - sba-gov-wakizashi
+  - sba-gov-scripts
   - sba-gov-test
   use_labels: true
   exclude_labels:
@@ -57,6 +59,9 @@ hubzone:
   - notification-api
   - message-api
   - omniauth-sba-idp
+  - sba-idp
+  - certify-business-api
+  - certify-sam-api
   use_labels: true
   exclude_labels:
   - WIP
