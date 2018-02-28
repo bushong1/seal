@@ -6,6 +6,8 @@ sbagov-developers:
   - cyber-decker
   - brooksa321
   - lsemesky
+  - KevL927
+  - jrwatts
   channel: "#sba-gov-pull-requests"
   include_repos:
   - sba-gov-katana
