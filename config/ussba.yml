@@ -62,7 +62,7 @@ hubzone:
   - message-api
   - omniauth-sba-idp
   - sba-idp
-  - certify-business-api
+  - business-profile-api
   - certify-sam-api
   use_labels: true
   exclude_labels:
