@@ -36,6 +36,8 @@ sbagov-devops:
   - sba-gov-scripts
   - sba-gov-tanto
   - sba-gov-wakizashi
+  - sba-gov-packer
+  - sba-gov-packer-files
   use_labels: true
   exclude_labels:
   - WIP
