@@ -76,6 +76,7 @@ hubzone-devops:
   - bushong1
   - solipet
   - jgsmith-usds
+  - jsmigovsky
   channel: "#sba-hubzone-devops"
   include_repos:
   - infrastructure
