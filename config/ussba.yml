@@ -45,12 +45,16 @@ sbagov-devops:
 hubzone:
   members:
   - solipet
+  - jennywagg
   - tbolt
+  - jondandois
   - patkelsh
+  - jtsengatfearsol
   - xcelldf
   - leeplace
-  - jondandois
+  - sseabrease
   - bushong1
+  - jsmigovsky
   - jgsmith-usds
   channel: "#sba-hubzone"
   include_repos:
@@ -62,11 +66,20 @@ hubzone:
   - hubzone-geoserver-config
   - shared-services-prototype
   - notification-api
+  - certify_notifications
   - message-api
+  - certify_messages
+  - activity-api
+  - certify_activity_log
+  - email-api
+  - certify_email
   - omniauth-sba-idp
   - sba-idp
+  - certify_user
   - business-profile-api
-  - certify-sam-api
+  - certify_business
+  - doc-api
+  - certify_documents
   use_labels: true
   exclude_labels:
   - WIP
