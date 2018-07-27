@@ -59,6 +59,7 @@ hubzone:
   channel: "#sba-hubzone"
   include_repos:
   - hubzone-data-etl
+  - hubzone-landing
   - hubzone-testing
   - hubzone-webmap
   - hubzone-api
