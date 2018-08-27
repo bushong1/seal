@@ -7,6 +7,7 @@ bluebutton-devs:
   channel: "#bluebutton-team"
   include_repos:
   - bluebutton-web-server
+  - bluebutton-deployment
   use_labels: true
   exclude_labels:
   - WIP
