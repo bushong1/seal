@@ -1,0 +1,12 @@
+bluebutton-devs:
+  members:
+  - johnfrenchxyz
+  - cstrama-fearless
+  - whytheplatypus
+  - dtisza1
+  channel: "#bluebutton-team"
+  include_repos:
+  - bluebutton-web-server
+  use_labels: true
+  exclude_labels:
+  - WIP
