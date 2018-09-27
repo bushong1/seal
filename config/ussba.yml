@@ -58,29 +58,33 @@ hubzone:
   - jgsmith-usds
   channel: "#sba-hubzone"
   include_repos:
+  - hubzone-api
   - hubzone-data-etl
-  - hubzone-landing
+  - hubzone-geoserver-config
+  - hubzone-report
+  - hubzone-scripts
   - hubzone-testing
   - hubzone-webmap
-  - hubzone-api
-  - hubzone-report
-  - hubzone-geoserver-config
   - shared-services-prototype
-  - notification-api
-  - certify_notifications
+  - hubzone-landing
+  - certify-application-overview
   - message-api
-  - certify_messages
+  - notification-api
   - activity-api
-  - certify_activity_log
-  - email-api
-  - certify_email
-  - omniauth-sba-idp
   - sba-idp
-  - certify_user
+  - omniauth-sba-idp
   - business-profile-api
-  - certify_business
   - doc-api
+  - email-api
+  - program-api
+  - certify_messages
+  - certify_notifications
+  - certify_activity_log
+  - certify_user
+  - certify_business
   - certify_documents
+  - certify_email
+  - certify_programs
   use_labels: true
   exclude_labels:
   - WIP
