@@ -8,13 +8,16 @@ sbagov-developers:
   - lsemesky
   - KevL927
   - jrwatts
+  - acmancuso
   channel: "#sba-gov-development"
   include_repos:
   - sba-gov-katana
   - sba-gov-daisho
   - sba-gov-wakizashi
   - sba-gov-scripts
-  - sba-gov-test
+  - sba-gov-content-api
+  - sba-gov-size-standards-api
+  - sba-gov-geocoder
   - sba-gov-bulk-uploader
   use_labels: true
   exclude_labels:
