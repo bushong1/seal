@@ -28,9 +28,14 @@ sbagov-devops:
   - sigfriedjk
   - brooksa321
   - jsmigovsky
+  - elijahmuha
   channel:
     "#team-hyan_rillards"
   include_repos:
+  - devops
+  - nessus-packer
+  - sba-app
+  - sba-certificate-renewal
   - sba-gov-infrastructure
   - sba-gov-containers
   - sba-gov-chef
