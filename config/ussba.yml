@@ -30,7 +30,7 @@ sbagov-devops:
   - jsmigovsky
   - elijahmuha
   channel:
-    "#team-hyan_rillards"
+    "#team-wizards-of-ops"
   include_repos:
   - devops
   - nessus-packer
@@ -47,6 +47,7 @@ sbagov-devops:
   - sba-gov-wakizashi
   - sba-gov-packer
   - sba-gov-packer-files
+  - hubzone-landing
   use_labels: true
   exclude_labels:
   - WIP
