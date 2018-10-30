@@ -122,6 +122,7 @@ hubzone-devops:
   - cookbook-shared-deploy
   - cookbook-hubzone-report
   - hubzone-deploy
+  - hubzone-landing
   - hubzone-packer
   - proofs-of-concept
   - aws-cft-tools
