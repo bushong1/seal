@@ -29,6 +29,7 @@ sbagov-devops:
   - brooksa321
   - jsmigovsky
   - elijahmuha
+  - rchillard-gov
   channel:
     "#team-wizards-of-ops"
   include_repos:
