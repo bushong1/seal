@@ -4,7 +4,7 @@ bluebutton-devs:
   - cstrama-fearless
   - whytheplatypus
   - dtisza1
-  channel: "#bluebutton-team"
+  channel: "#team-bluebutton"
   include_repos:
   - bluebutton-web-server
   - bluebutton-deployment
