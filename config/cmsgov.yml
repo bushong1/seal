@@ -9,6 +9,7 @@ bluebutton-devs:
   - bluebutton-web-server
   - bluebutton-deployment
   - bluebutton-css
+  - bluebutton-site-static
   use_labels: true
   exclude_labels:
   - WIP
