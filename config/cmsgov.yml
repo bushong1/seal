@@ -8,6 +8,7 @@ bluebutton-devs:
   include_repos:
   - bluebutton-web-server
   - bluebutton-deployment
+  - bluebutton-css
   use_labels: true
   exclude_labels:
   - WIP
