@@ -54,7 +54,7 @@ GEM
       byebug (~> 10.0)
       pry (~> 0.10)
     public_suffix (3.0.2)
-    rack (2.0.5)
+    rack (2.0.6)
     rack-protection (2.0.3)
       rack
     rake (12.3.1)
@@ -115,4 +115,4 @@ RUBY VERSION
    ruby 2.2.6p396
 
 BUNDLED WITH
-   1.16.2
+   1.16.6
