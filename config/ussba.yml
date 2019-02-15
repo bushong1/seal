@@ -49,7 +49,9 @@ sbagov-devops:
   - sba-gov-packer
   - sba-gov-packer-files
   - hubzone-landing
+  - sbir-gov-data-extract
   - sbir-gov-infrastructure
+  - sbir-gov-packer
   - sbir-gov-website
   use_labels: true
   exclude_labels:
