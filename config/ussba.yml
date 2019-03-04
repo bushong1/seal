@@ -56,81 +56,83 @@ sbagov-devops:
   use_labels: true
   exclude_labels:
   - WIP
-hubzone:
-  members:
-  - solipet
-  - jennywagg
-  - tbolt
-  - jondandois
-  - PatKelsh
-  - jtsengatfearsol
-  - xcelldf
-  - leeplace
-  - sseabrease
-  - bushong1
-  - jsmigovsky
-  - jgsmith-usds
-  channel: "#team-sba-certify"
-  include_repos:
-  - hubzone-api
-  - hubzone-data-etl
-  - hubzone-geoserver-config
-  - hubzone-report
-  - hubzone-scripts
-  - hubzone-testing
-  - hubzone-webmap
-  - shared-services-prototype
-  - hubzone-landing
-  - certify-application-overview
-  - message-api
-  - notification-api
-  - activity-api
-  - sba-idp
-  - omniauth-sba-idp
-  - business-profile-api
-  - doc-api
-  - email-api
-  - program-api
-  - certify_messages
-  - certify_notifications
-  - certify_activity_log
-  - certify_user
-  - certify_business
-  - certify_documents
-  - certify_email
-  - certify_programs
-  use_labels: true
-  exclude_labels:
-  - WIP
 
-hubzone-devops:
-  members:
-  - bushong1
-  - solipet
-  - jgsmith-usds
-  - jsmigovsky
-  channel: "#sba-hubzone-devops"
-  include_repos:
-  - infrastructure
-  - devops
-  - cookbook-hzetl
-  - cookbook-geoserver
-  - cookbook-geoapi
-  - cookbook-hzmap
-  - cookbook-shared-activity
-  - cookbook-shared-common
-  - cookbook-hubzone-common
-  - cookbook-hubzone-deploy
-  - cookbook-hubzone-nginx
-  - cookbook-shared-messaging
-  - cookbook-shared-notification
-  - cookbook-shared-deploy
-  - cookbook-hubzone-report
-  - hubzone-deploy
-  - hubzone-landing
-  - hubzone-packer
-  - proofs-of-concept
-  - aws-cft-tools
-  use_labels: true
-  exclude_labels:
-  - WIP
+# RIP
+#hubzone:
+#  members:
+#  - solipet
+#  - jennywagg
+#  - tbolt
+#  - jondandois
+#  - PatKelsh
+#  - jtsengatfearsol
+#  - xcelldf
+#  - leeplace
+#  - sseabrease
+#  - bushong1
+#  - jsmigovsky
+#  - jgsmith-usds
+#  channel: "#team-sba-certify"
+#  include_repos:
+#  - hubzone-api
+#  - hubzone-data-etl
+#  - hubzone-geoserver-config
+#  - hubzone-report
+#  - hubzone-scripts
+#  - hubzone-testing
+#  - hubzone-webmap
+#  - shared-services-prototype
+#  - hubzone-landing
+#  - certify-application-overview
+#  - message-api
+#  - notification-api
+#  - activity-api
+#  - sba-idp
+#  - omniauth-sba-idp
+#  - business-profile-api
+#  - doc-api
+#  - email-api
+#  - program-api
+#  - certify_messages
+#  - certify_notifications
+#  - certify_activity_log
+#  - certify_user
+#  - certify_business
+#  - certify_documents
+#  - certify_email
+#  - certify_programs
+#  use_labels: true
+#  exclude_labels:
+#  - WIP
+#
+#hubzone-devops:
+#  members:
+#  - bushong1
+#  - solipet
+#  - jgsmith-usds
+#  - jsmigovsky
+#  channel: "#sba-hubzone-devops"
+#  include_repos:
+#  - infrastructure
+#  - devops
+#  - cookbook-hzetl
+#  - cookbook-geoserver
+#  - cookbook-geoapi
+#  - cookbook-hzmap
+#  - cookbook-shared-activity
+#  - cookbook-shared-common
+#  - cookbook-hubzone-common
+#  - cookbook-hubzone-deploy
+#  - cookbook-hubzone-nginx
+#  - cookbook-shared-messaging
+#  - cookbook-shared-notification
+#  - cookbook-shared-deploy
+#  - cookbook-hubzone-report
+#  - hubzone-deploy
+#  - hubzone-landing
+#  - hubzone-packer
+#  - proofs-of-concept
+#  - aws-cft-tools
+#  use_labels: true
+#  exclude_labels:
+#  - WIP
