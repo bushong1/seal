@@ -5,7 +5,8 @@ sbagov-developers:
   - averysmithproductions
   - cyber-decker
   - brooksa321
-  - lsemesky
+  - PatKelsh
+  - amyd11
   - KevL927
   - jrwatts
   - acmancuso
@@ -16,9 +17,11 @@ sbagov-developers:
   - sba-gov-wakizashi
   - sba-gov-scripts
   - sba-gov-content-api
+  - sba-gov-misc-api
   - sba-gov-size-standards-api
   - sba-gov-geocoder
   - sba-gov-bulk-uploader
+  - sba-gov-integration-tests
   use_labels: true
   exclude_labels:
   - WIP
