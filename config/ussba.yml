@@ -42,6 +42,7 @@ sbagov-devops:
   - sba-certificate-renewal
   - sba-gov-infrastructure
   - sba-gov-containers
+  - sba-gov-ckan
   - sba-gov-chef
   - sba-gov-wordpress
   - sba-gov-nginx-proxy
@@ -56,6 +57,7 @@ sbagov-devops:
   - sbir-gov-infrastructure
   - sbir-gov-packer
   - sbir-gov-website
+  - sba-security-infrastructure
   use_labels: true
   exclude_labels:
   - WIP
