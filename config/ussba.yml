@@ -58,6 +58,7 @@ sbagov-devops:
   - sbir-gov-packer
   - sbir-gov-website
   - sba-security-infrastructure
+  - sba-management-infrastructure
   use_labels: true
   exclude_labels:
   - WIP
