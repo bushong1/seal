@@ -37,28 +37,31 @@ sbagov-devops:
     "#team-wizards-of-ops"
   include_repos:
   - devops
+  - hubzone-landing
   - nessus-packer
   - sba-app
+  - sba-aws-helpers
   - sba-certificate-renewal
-  - sba-gov-infrastructure
-  - sba-gov-containers
-  - sba-gov-ckan
+  - sba-eli-infrastructure
   - sba-gov-chef
-  - sba-gov-wordpress
-  - sba-gov-nginx-proxy
+  - sba-gov-ckan
+  - sba-gov-containers
   - sba-gov-efscopy
+  - sba-gov-infrastructure
+  - sba-gov-nginx-proxy
+  - sba-gov-packer
+  - sba-gov-packer-files
   - sba-gov-scripts
   - sba-gov-tanto
   - sba-gov-wakizashi
-  - sba-gov-packer
-  - sba-gov-packer-files
-  - hubzone-landing
+  - sba-gov-wordpress
+  - sba-management-infrastructure
+  - sba-security-infrastructure
   - sbir-gov-data-extract
   - sbir-gov-infrastructure
   - sbir-gov-packer
   - sbir-gov-website
-  - sba-security-infrastructure
-  - sba-management-infrastructure
+  - terraform-aws-scheduled-lambda
   use_labels: true
   exclude_labels:
   - WIP
