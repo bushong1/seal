@@ -38,6 +38,7 @@ sbagov-devops:
   include_repos:
   - devops
   - hubzone-landing
+  - hubzone-packer
   - nessus-packer
   - sba-app
   - sba-aws-helpers
