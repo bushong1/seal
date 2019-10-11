@@ -40,6 +40,9 @@ sbagov-devops:
   - hubzone-landing
   - hubzone-packer
   - nessus-packer
+  - oda-dlap-infrastructure
+  - oda-dlap-packer
+  - oda-dlap-web
   - sba-app
   - sba-aws-helpers
   - sba-certificate-renewal
