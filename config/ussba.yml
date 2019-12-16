@@ -36,6 +36,7 @@ sbagov-devops:
   channel:
     "#team-wizards-of-ops"
   include_repos:
+  - bitwarden-infrastructure
   - devops
   - hubzone-landing
   - hubzone-packer
@@ -43,6 +44,7 @@ sbagov-devops:
   - oda-dlap-infrastructure
   - oda-dlap-packer
   - oda-dlap-web
+  - open-source
   - sba-app
   - sba-aws-helpers
   - sba-certificate-renewal
@@ -50,6 +52,7 @@ sbagov-devops:
   - sba-gov-chef
   - sba-gov-ckan
   - sba-gov-containers
+  - sba-gov-cypress
   - sba-gov-efscopy
   - sba-gov-infrastructure
   - sba-gov-nginx-proxy
@@ -65,7 +68,13 @@ sbagov-devops:
   - sbir-gov-infrastructure
   - sbir-gov-packer
   - sbir-gov-website
+  - terraform-aws-backup-plans
+  - terraform-aws-bootstrapper
+  - terraform-aws-inspector
   - terraform-aws-scheduled-lambda
+  - terraform-aws-sns-notification-framework
+  - terraform-aws-waf-global
+  - terraform-aws-waf-regional
   use_labels: true
   exclude_labels:
   - WIP
