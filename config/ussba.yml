@@ -25,136 +25,58 @@ sbagov-developers:
   use_labels: true
   exclude_labels:
   - WIP
-sbagov-devops:
-  members:
-  - bushong1
-  - sigfriedjk
-  - brooksa321
-  - jsmigovsky
-  - elijahmuha
-  - rchillard-gov
-  channel:
-    "#team-wizards-of-ops"
-  include_repos:
-  - bitwarden-infrastructure
-  - devops
-  - hubzone-landing
-  - hubzone-packer
-  - nessus-packer
-  - oda-dlap-infrastructure
-  - oda-dlap-packer
-  - oda-dlap-web
-  - open-source
-  - sba-app
-  - sba-aws-helpers
-  - sba-certificate-renewal
-  - sba-eli-infrastructure
-  - sba-gov-chef
-  - sba-gov-ckan
-  - sba-gov-containers
-  - sba-gov-cypress
-  - sba-gov-efscopy
-  - sba-gov-infrastructure
-  - sba-gov-nginx-proxy
-  - sba-gov-packer
-  - sba-gov-packer-files
-  - sba-gov-scripts
-  - sba-gov-tanto
-  - sba-gov-wakizashi
-  - sba-gov-wordpress
-  - sba-management-infrastructure
-  - sba-security-infrastructure
-  - sbir-gov-data-extract
-  - sbir-gov-infrastructure
-  - sbir-gov-packer
-  - sbir-gov-website
-  - terraform-aws-backup-plans
-  - terraform-aws-bootstrapper
-  - terraform-aws-inspector
-  - terraform-aws-scheduled-lambda
-  - terraform-aws-sns-notification-framework
-  - terraform-aws-waf-global
-  - terraform-aws-waf-regional
-  use_labels: true
-  exclude_labels:
-  - WIP
-
-# RIP
-#hubzone:
-#  members:
-#  - solipet
-#  - jennywagg
-#  - tbolt
-#  - jondandois
-#  - PatKelsh
-#  - jtsengatfearsol
-#  - xcelldf
-#  - leeplace
-#  - sseabrease
-#  - bushong1
-#  - jsmigovsky
-#  - jgsmith-usds
-#  channel: "#team-sba-certify"
-#  include_repos:
-#  - hubzone-api
-#  - hubzone-data-etl
-#  - hubzone-geoserver-config
-#  - hubzone-report
-#  - hubzone-scripts
-#  - hubzone-testing
-#  - hubzone-webmap
-#  - shared-services-prototype
-#  - hubzone-landing
-#  - certify-application-overview
-#  - message-api
-#  - notification-api
-#  - activity-api
-#  - sba-idp
-#  - omniauth-sba-idp
-#  - business-profile-api
-#  - doc-api
-#  - email-api
-#  - program-api
-#  - certify_messages
-#  - certify_notifications
-#  - certify_activity_log
-#  - certify_user
-#  - certify_business
-#  - certify_documents
-#  - certify_email
-#  - certify_programs
-#  use_labels: true
-#  exclude_labels:
-#  - WIP
-#
-#hubzone-devops:
+#sbagov-devops:
 #  members:
 #  - bushong1
-#  - solipet
-#  - jgsmith-usds
+#  - sigfriedjk
+#  - brooksa321
 #  - jsmigovsky
-#  channel: "#sba-hubzone-devops"
+#  - elijahmuha
+#  - rchillard-gov
+#  channel:
+#    "#team-wizards-of-ops"
 #  include_repos:
-#  - infrastructure
+#  - bitwarden-infrastructure
 #  - devops
-#  - cookbook-hzetl
-#  - cookbook-geoserver
-#  - cookbook-geoapi
-#  - cookbook-hzmap
-#  - cookbook-shared-activity
-#  - cookbook-shared-common
-#  - cookbook-hubzone-common
-#  - cookbook-hubzone-deploy
-#  - cookbook-hubzone-nginx
-#  - cookbook-shared-messaging
-#  - cookbook-shared-notification
-#  - cookbook-shared-deploy
-#  - cookbook-hubzone-report
-#  - hubzone-deploy
 #  - hubzone-landing
 #  - hubzone-packer
-#  - proofs-of-concept
-#  - aws-cft-tools
+#  - nessus-packer
+#  - oda-dlap-infrastructure
+#  - oda-dlap-packer
+#  - oda-dlap-web
+#  - open-source
+#  - sba-app
+#  - sba-aws-helpers
+#  - sba-certificate-renewal
+#  - sba-eli-infrastructure
+#  - sba-gov-chef
+#  - sba-gov-ckan
+#  - sba-gov-containers
+#  - sba-gov-cypress
+#  - sba-gov-efscopy
+#  - sba-gov-infrastructure
+#  - sba-gov-nginx-proxy
+#  - sba-gov-packer
+#  - sba-gov-packer-files
+#  - sba-gov-scripts
+#  - sba-gov-tanto
+#  - sba-gov-wakizashi
+#  - sba-gov-wordpress
+#  - sba-management-infrastructure
+#  - sba-security-infrastructure
+#  - sbir-gov-data-extract
+#  - sbir-gov-infrastructure
+#  - sbir-gov-packer
+#  - sbir-gov-website
+#  - terraform-aws-backup-plans
+#  - terraform-aws-bootstrapper
+#  - terraform-aws-inspector
+#  - terraform-aws-scheduled-lambda
+#  - terraform-aws-sns-notification-framework
+#  - terraform-aws-waf-global
+#  - terraform-aws-waf-regional
+#  - terraform-aws-account-config
+#  - sba-fof-infrastructure
 #  use_labels: true
 #  exclude_labels:
 #  - WIP
